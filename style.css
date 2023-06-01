@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.45s ease;
+}
+
+img{
+    max-width: 150px;
+    object-fit: cover;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-controllers{
+    display: flex;
+    max-width: 250px;
+    column-gap: 15px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    justify-content: space-around;
+}
+
+.tab-controller{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab-content{
+    padding: 40px 10px 20px;
+    border: 1px solid black;
+    min-width: 350px;
+    display: none;
+    justify-content: center;
+}
+
+.form{
+    display: inline-flex;
+    width: 100%;
+    row-gap: 15px;
+    flex-direction: column;
+}
+
+.active{
+    display: flex;
+}
+
